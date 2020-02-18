@@ -4,8 +4,8 @@ import React from 'react';
 const Signedoutlinks = ()=>{
     return(
         <ul className="right">
-            <li><NavLink to="/">Sign Up</NavLink> </li>
-            <li><NavLink to="/">Sign In</NavLink> </li>
+            <li><NavLink to="/signup">Sign Up</NavLink> </li>
+            <li><NavLink to="/signin">Sign In</NavLink> </li>
         </ul>    
     )
 }
